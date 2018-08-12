@@ -996,3 +996,9 @@ h1.head-animate {
     opacity: .25;
   }
 }
+.bg-white{
+  background-color: #fff !important
+}
+.bg-black{
+  background-color: #000
+}
