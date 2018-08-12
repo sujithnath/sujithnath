@@ -309,6 +309,10 @@ header.masthead .info-description {
 #portfolio .img-fluid{
   min-height: 197px;
 }
+#portfolio .img-fluid.code-pen{
+  min-height: auto;
+  margin: 65px auto;
+}
 #portfolio .portfolio-item .portfolio-caption p {
   font-size: 16px;
   font-style: italic;
@@ -724,6 +728,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 .portfolio-hover.medium-hover{
   background-color: rgba(46, 204, 113, .4 ) !important;
+}
+.portfolio-hover.code-pen-hover{
+  background-color: rgba(254, 209, 54, 0.9) !important
 }
 .console-header {
     background: #cfd8dc;
