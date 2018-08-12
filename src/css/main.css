@@ -194,6 +194,7 @@ header.masthead .intro-text .intro-lead-in {
 header.masthead img{
   width: 180px;
   border-radius: 90px;
+  margin-bottom: 10px
 }
 
 header.masthead .intro-text .intro-heading {
@@ -220,6 +221,7 @@ header.masthead .info-description {
   box-shadow: 3px 3px 8px rgba(0,0,0,1);
   color: #fff;
   min-height: 160px;
+  padding: 16px;
 }
 
 @media (min-width: 768px) {
@@ -701,19 +703,17 @@ ul.social-buttons li a {
   font-size: 20px;
   line-height: 40px;
   display: block;
-  width: 40px;
-  height: 40px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
   color: white;
   border-radius: 100%;
-  outline: none;
-  background-color: #212529;
+  background-color: #fff;
+  color: #333;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #fff;
 }
 .hide-elem{
   display: none
