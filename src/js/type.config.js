@@ -54,6 +54,7 @@ let startTypEffect = function(){
 }
 
 let initFunctions = function(){
+    document.getElementById('cookingHolder').style.display = "none";
     setInitialHeight();
     startTypEffect();
 }
