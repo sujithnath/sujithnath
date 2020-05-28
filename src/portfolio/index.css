@@ -11,6 +11,7 @@ body.darkMode {
   background: #1d1d1d;
   color: #fff;
 }
+
 body.darkMode li a {
   color: #fff;
 }
@@ -157,16 +158,6 @@ a:focus {
   color: #00baff;
 }
 
-@media only screen and (max-width: 812px) {
-  body {
-    margin: 16px;
-  }
-
-  main {
-    width: 100%;
-  }
-}
-
 /* Top image and name holder */
 
 .image-holder {
@@ -285,4 +276,44 @@ ul.links li svg {
 }
 .blockquote-data {
   margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 812px) {
+  .name {
+    display: block;
+  }
+  body {
+    margin: 16px;
+  }
+
+  main {
+    width: 100%;
+  }
+  html {
+    font-size: 100%;
+  }
+  h1 {
+    font-size: 4.242rem;
+    margin: 0;
+    text-align: center;
+  }
+  .display-pic {
+    min-width: auto;
+    display: block;
+    margin: 20px auto;
+    width: 30%;
+    border-radius: 50%;
+  }
+
+  ul.links {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4px;
+  }
+  ul.links li {
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-size: 15px;
+    margin: 10px 0 0;
+  }
 }
