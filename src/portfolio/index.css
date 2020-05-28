@@ -6,11 +6,30 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-html.dark-theme,
-body.dark-theme {
+html.darkMode,
+body.darkMode {
   background: #1d1d1d;
   color: #fff;
 }
+body.darkMode li a {
+  color: #fff;
+}
+body.darkMode ul.links li svg {
+  box-shadow: none;
+}
+body.lightMode .change-theme .light-view {
+  display: inline-block;
+}
+body.lightMode .change-theme .night-view {
+  display: none;
+}
+body.darkMode .change-theme .light-view {
+  display: none;
+}
+body.darkMode .change-theme .night-view {
+  display: inline-block;
+}
+
 /* Copy & Lists */
 p {
   line-height: 1.5rem;
@@ -90,7 +109,9 @@ header {
 }
 .change-theme {
   position: absolute;
-  right: 0;
+  right: 60px;
+  top: -30px;
+  cursor: pointer;
 }
 /* Leading paragraph text */
 .lead {
@@ -168,7 +189,7 @@ a:focus {
 ul.links {
   list-style: none;
   padding: 0;
-  margin: 10px 0;
+  margin: 16px 0 28px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 14px;

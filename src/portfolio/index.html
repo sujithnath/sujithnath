@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Sujith Gopinath</title>
+    <title>Sujith Gopinath portfolio</title>
     <link
       rel="stylesheet"
       href="https://necolas.github.io/normalize.css/8.0.0/normalize.css"
@@ -11,9 +11,9 @@
 
   <body>
     <header>
-      <div id="themeChange" onclick="toggleTheme" class="change-theme">
-        <span id="nightMode">🌒</span>
-        <span id="sunMode">🌞</span>
+      <div id="themeChange" onclick="toggleTheme(event)" class="change-theme lightMode">
+        <span id="darkMode" class="night-view">🌞</span>
+        <span id="lightMode" class="light-view">🌒</span>
       </div>
     </header>
 
@@ -24,7 +24,7 @@
           <img class="display-pic" src="./assets/sujith-clr.jpg" />
         </div>
         <p>
-          A frontend developer with 6 plus years of startup experience [Logistics, Food-delivery startups] and skills, aiming to enhance
+          A frontend developer with 6 plus years of startup experience [Logistics, Food-delivery startups, cloud integration etc.] and skills, aiming to enhance
           user experience and solving problems proactively.
         </p>
       </section>
@@ -32,7 +32,7 @@
       <!-- section two -->
       <section>
         <h3>Experience</h3>
-        <ul class="links">
+        <ul class="links" id="linkTheme">
           <li class="linkedin">
             <svg
               role="img"
@@ -58,7 +58,7 @@
             >
               <title>Resume</title>
             </svg>
-            <a href="">Resume [Detailed skills]</a>
+            <a target="_blank" href="./assets/sujith-frontend-resume.pdf">Resume [Detailed skills]</a>
           </li>
           <li class="github">
             <svg

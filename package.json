@@ -1,7 +1,7 @@
 {
   "name": "sujithnath",
   "version": "1.0.0",
-  "description": "sujith portfolio",
+  "description": "sujith gopinath portfolio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,7 +18,7 @@
     "\"html\"",
     "\"responsive\""
   ],
-  "author": "sujith",
+  "author": "sujith gopinath",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sujithnath/sujithnath/issues"

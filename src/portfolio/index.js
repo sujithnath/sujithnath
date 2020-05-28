@@ -1,5 +1,22 @@
+const changeTheme = (value) => {
+  document.body.classList = [`${value}`];
+};
+
 function toggleTheme(event) {
-  console.log('event');
+  if (event.target.id === 'darkMode' || event.target.id === 'lightMode') {
+    const value = event.target.id === 'darkMode' ? 'lightMode' : 'darkMode';
+    changeTheme(value);
+    localStorage.setItem('themeMode', value);
+  }
 }
 
-console.log('event');
+const checkThemeOnLoad = () => {
+  const value = localStorage.getItem('themeMode');
+  if (value) {
+    changeTheme(value);
+  }
+};
+
+window.onload = () => {
+  checkThemeOnLoad();
+};
