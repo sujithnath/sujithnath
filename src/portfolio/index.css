@@ -90,6 +90,7 @@ h2 {
   font-size: 2.828rem;
   line-height: 3rem;
   margin-top: 3rem;
+  text-shadow: -2px 2px 3px #ff2d95;
 }
 h3 {
   font-size: 1.414rem;
@@ -281,4 +282,7 @@ ul.links li svg {
 }
 .micro a:hover {
   color: #d9232e;
+}
+.blockquote-data {
+  margin-bottom: 100px;
 }
