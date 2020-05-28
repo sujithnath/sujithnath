@@ -77,6 +77,7 @@ h3 {
 }
 h4 {
   font-size: 0.707rem;
+  margin: 15px 0 0;
 }
 h5 {
   font-size: 0.4713333333333333rem;
@@ -184,8 +185,79 @@ ul.links li a {
 ul.links li svg {
   width: 20px;
   height: 20px;
-  border: 1px solid #eaeaea;
-  background-color: #eaeaea;
+  /* border: 1px solid #eaeaea; */
+  /* background-color: #eaeaea; */
   vertical-align: text-bottom;
   cursor: pointer;
+  box-shadow: 1px 4px 7px #eaeaea;
+}
+
+.linkedin a:hover {
+  color: #0077b5;
+}
+.resume a:hover {
+  color: #0096d6;
+}
+.medium a:hover {
+  color: #000;
+}
+.github a:hover {
+  color: #000;
+}
+.leetcode a:hover {
+  color: #f89f1b;
+}
+.email a:hover {
+  color: #4680c2;
+}
+.js a:hover {
+  color: #f7df1e;
+}
+.react a:hover {
+  color: #61dafb;
+}
+.typescript a:hover {
+  color: #007acc;
+}
+.bootstrap a:hover {
+  color: #563d7c;
+}
+.css a:hover {
+  color: #1572b6;
+}
+.css a:hover {
+  color: #1572b6;
+}
+.pwa a:hover {
+  color: #50fa7b;
+}
+.angular a:hover {
+  color: #dd0031;
+}
+.node a:hover {
+  color: #339933;
+}
+.graphql a:hover {
+  color: #311c87;
+}
+.next a:hover {
+  color: #000000;
+}
+.mysql a:hover {
+  color: #4479a1;
+}
+.webpack a:hover {
+  color: #8dd6f9;
+}
+.testing a:hover {
+  color: #c21325;
+}
+.cicd a:hover {
+  color: #2496ed;
+}
+.aws a:hover {
+  color: #232f3e;
+}
+.micro a:hover {
+  color: #d9232e;
 }
