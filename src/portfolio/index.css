@@ -12,6 +12,10 @@ body.darkMode {
   color: #fff;
 }
 
+body.darkMode h3 {
+  color: #20f1d1;
+}
+
 body.darkMode li a {
   color: #fff;
 }
@@ -99,6 +103,7 @@ h3 {
 h4 {
   font-size: 0.707rem;
   margin: 15px 0 0;
+  color: ff2d95;
 }
 h5 {
   font-size: 0.4713333333333333rem;
