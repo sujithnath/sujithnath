@@ -1,8 +1,6 @@
 body,
 html {
   font-family: sans-serif;
-  overflow-x: visible;
-  -webkit-overflow-scrolling: touch;
   width: 100%;
   height: 100%;
   padding: 0;
@@ -1038,36 +1036,6 @@ div {
   body.hover-support .q1ul_q a:hover {
     text-decoration: none !important;
   }
-}
-::-webkit-scrollbar {
-  background-color: #303d46;
-  width: 0.9rem;
-  height: 1rem;
-}
-
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 0.6rem transparent;
-  border-radius: 1rem;
-}
-
-::-webkit-scrollbar-thumb {
-  border: 1px solid #3c4d58;
-  background-color: #3c4d58;
-  outline: 0;
-}
-#q1dx_q-yna-project,
-#q1xd_q-project,
-body#q1ui_q-editor,
-html {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
-}
-
-html#q1xd_q-html {
-  overflow-x: auto !important;
 }
 .q1rm_q,
 .q1rm_q-el {
