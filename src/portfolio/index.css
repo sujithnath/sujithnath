@@ -226,8 +226,9 @@ ul.links li svg {
 .leetcode a:hover {
   color: #f89f1b;
 }
+.email a,
 .email a:hover {
-  color: #4680c2;
+  color: gold !important;
 }
 .js a:hover {
   color: #f7df1e;
@@ -343,5 +344,9 @@ ul.links li svg {
 @media only screen and (max-width: 480px) {
   ul.links {
     grid-template-columns: 1fr 1fr;
+  }
+  ul.links li a {
+    font-size: 13px;
+    margin-left: 4px;
   }
 }
