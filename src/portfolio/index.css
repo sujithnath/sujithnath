@@ -194,7 +194,7 @@ ul.links {
 
 ul.links li {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 4px;
 }
 ul.links li a {
   text-decoration: none;
@@ -342,6 +342,6 @@ ul.links li svg {
 
 @media only screen and (max-width: 480px) {
   ul.links {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
