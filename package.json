@@ -4,9 +4,7 @@
   "description": "sujith gopinath portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build:prod": "npx webpack --config ./webpack/webpack.prod.js",
-    "prod:push": "git add . && git commit -m 'potfolio changes' && git push"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
